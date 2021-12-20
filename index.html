@@ -1,11 +1,17 @@
 <html>
     <head>
     <script >
-            
-           window.location.href='https://m.xiaoke.cn?param=xkapp%3A%2F%2Fxk.app%2Fopen%3Fparam%3D%257B%2522route%2522%253A%2522%252Fsms%252Fsend%2522%257D';
+        var t = +new Date();
+        location.href = 'xkapp://xk.app/open?param=%7B%22route%22%3A%22%2Fsms%2Fsend%22%7D';
+        setTimeout(function () {
+            if (+new Date() - t < 600) {
+                location.href = 'https://m.xiaoke.cn?param=xkapp%3A%2F%2Fxk.app%2Fopen%3Fparam%3D%257B%2522route%2522%253A%2522%252Fsms%252Fsend%2522%257D';
+            }
+        }, 500);
+      
     </script>
     </head>
     <body>
-        <a href="https://m.xiaoke.cn?param=xkapp%3A%2F%2Fxk.app%2Fopen%3Fparam%3D%257B%2522route%2522%253A%2522%252Fsms%252Fsend%2522%257D">点击4</a>
+        <a href="https://m.xiaoke.cn?param=xkapp%3A%2F%2Fxk.app%2Fopen%3Fparam%3D%257B%2522route%2522%253A%2522%252Fsms%252Fsend%2522%257D">点击5</a>
     </body>
 </html>
