@@ -1,0 +1,13 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "FM2G6TS6GR.com.weimob.xcrmqqa",
+                "paths": [
+                    "/app/*"
+                ]
+            }
+        ]
+    }
+}
